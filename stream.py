@@ -10,7 +10,7 @@ def simple_chatbot(user_input):
         return 'your father name is SUGUMAR\n He is a ORDINARY PERSON.'
     elif 'brother' in user_input:
         return ('your brother name is DIVID ...\n its amazing it is a palindrom letter right...')
-    elif 'Divid' in user_input:
+    elif 'divid' in user_input:
         return ('Divid best friend is ISHWARYA..\n she is also cute , But not like DIVID.because divid is a handsome guy')
     else:
         return 'I am a simple chatbot and can respond to basic greetings.'

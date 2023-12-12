@@ -16,7 +16,7 @@ def simple_chatbot(user_input):
         return 'I am a simple chatbot and can respond to basic greetings.'
 
 def main():
-    st.title("Simple Chatbot with Streamlit")
+    st.title("VARUNA PRIYA (mini)CHATBOT ")
     user_input = st.text_input("You: ", "")
     if user_input:
         response = simple_chatbot(user_input)

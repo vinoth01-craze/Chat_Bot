@@ -21,4 +21,5 @@ st.title("Simple Chatbot with Streamlit")
 user_input = st.text_input("You: ", "")
 if user_input:
     response = simple_chatbot(user_input)
-    st.text_area("Bot:", value=response, height=100)
+    if st.button("Send"):
+        st.text_area("Bot:", value=response, height=100)
